@@ -17,6 +17,11 @@ var settings = {
 var express = require('express')
 var app = express()
 
+app.get('/power', function (req, res) {
+    server.publish({topic: '/control',payload:'KEY_TV'})
+    res.send('Hello World!')
+})
+
 app.get('/volumeUp', function (req, res) {
    server.publish({topic: '/control',payload:'KEY_VOLUMEUP'})
   res.send('Hello World!')
@@ -27,7 +32,14 @@ app.get('/volumeDown', function (req, res) {
    server.publish({topic: '/control',payload:'KEY_VOLUMEDOWN'})
   res.send('Hello World!')
 })
-
+app.get('/pictureEffect', function (req, res) {
+    server.publish({topic: '/control',payload:'KEY_VIDEO'})
+    res.send('Hello World!')
+})
+app.get('/soundEffect', function (req, res) {
+    server.publish({topic: '/control',payload:'KEY_AUDIO'})
+    res.send('Hello World!')
+})
 
 app.listen(3000, function () {
   console.log('Example app listening on port 3000!')

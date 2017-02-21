@@ -1,6 +1,6 @@
 <html>
 <head>
-<h3>Tapre's Remote</h3>
+<h3>iR Remote</h3>
 
 </head>
 <body>
@@ -19,18 +19,10 @@
 <title>Three Column HTML Layout</title>
 </head>
 <body>
-<table width="100%" border="0">
-  <tr valign="top">
-    <td bgcolor="#aaa" width="20%">
-      <b>Micromax TV Remote</b><br />
-      developed by:<br />
-      Chaitanya Tapre<br />
-      IoT Tech Expert
-    </td>
-    <td bgcolor="#b5dcb3" height="200" width="60%">
-        <table width="50%" border="1" align='center'>
-  		<tr valign="top">
-			<td>
+<form target='myiframe' action='/power' method='GET'>
+    <button type='submit'>ON/OFF</button>
+</form>
+</td>
 				<form target='myiframe' action='/volumeUp' method='GET'>
 					<button type='submit'>Volume Up</button>
 				</form>
@@ -40,14 +32,18 @@
 					<button type='submit'>Volume Down</button>
 				</form>
     			</td>
+                <td>
+                    <form target='myiframe' action='/pictureEffect' method='GET'>
+                        <button type='submit'>Picture Effect</button>
+                    </form>
+                </td>
+                <td>
+                    <form target='myiframe' action='/soundEffect' method='GET'>
+                        <button type='submit'>Sound Effect</button>
+                    </form>
+                </td>
    		</tr>
-	<table>
-    <td bgcolor="#aaa" width="20%">
-    </td>
-    <td bgcolor="#aaa" width="20%">
-      <b>Remote Control Help</b><br />
-      Volume Up<br />
-      Volume Down<br />
+
       	<iframe id='myiframe'  name='myiframe' width=1 height=1 display='none'>
 	</iframe>
     </td>
