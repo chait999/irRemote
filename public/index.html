@@ -1,53 +1,64 @@
-<html>
-<head>
-<h3>iR Remote</h3>
-
-</head>
-<body>
-
-
-
-
-
-</body>
-
-</html>
-
 <!DOCTYPE html>
 <html>
 <head>
-<title>Three Column HTML Layout</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta charset='utf-8'/>
+    <meta name="viewport" content="width=devide-width, initial-scale=1"/>
+    <link rel='stylesheet' href='styleFile.css'>
+    <title>Internet Remote</title>
 </head>
 <body>
-<form target='myiframe' action='/power' method='GET'>
-    <button type='submit'>ON/OFF</button>
-</form>
-</td>
-				<form target='myiframe' action='/volumeUp' method='GET'>
-					<button type='submit'>Volume Up</button>
-				</form>
-			</td>
-			<td>
-				<form target='myiframe' action='/volumeDown' method='GET'>
-					<button type='submit'>Volume Down</button>
-				</form>
-    			</td>
-                <td>
-                    <form target='myiframe' action='/pictureEffect' method='GET'>
-                        <button type='submit'>Picture Effect</button>
-                    </form>
-                </td>
-                <td>
-                    <form target='myiframe' action='/soundEffect' method='GET'>
-                        <button type='submit'>Sound Effect</button>
-                    </form>
-                </td>
-   		</tr>
+<table border="0"  class="rwd-table">
+<th align="center">ir Remote</th>
+    <tr>
+        <td>
+            <form target='myiframe' action='/power' method='GET'>
+                <button class="btn btn-primary" type='submit' style="width: 100%">ON/OFF</button>
+            </form>
+        </td>
+    </tr>
 
-      	<iframe id='myiframe'  name='myiframe' width=1 height=1 display='none'>
-	</iframe>
-    </td>
-   </tr>
+    <tr>
+        <td>
+            <form target='myiframe' action='/volumeUp' method='GET'>
+                <button type='submit' style="width: 100%">Volume Up</button>
+            </form>
+        </td>
+
+    </tr>
+
+    <tr>
+        <td>
+            <form target='myiframe' action='/volumeDown' method='GET'>
+                <button type='submit' style="width: 100%">Volume Down</button>
+            </form>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <form target='myiframe' action='/pictureEffect' method='GET'>
+                <button type='submit' style="width: 100%">Picture Effect</button>
+            </form>
+
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <form target='myiframe' action='/soundEffect' method='GET'>
+                <button type='submit' style="width: 100%">Sound Effect</button>
+            </form>
+        </td>
+    </tr>
+
+</table>
+
+
+<iframe id='myiframe' name='myiframe' width=1 height=1 display='none'>
+</iframe>
+</td>
+</tr>
 <table>
 </body>
 </html>
