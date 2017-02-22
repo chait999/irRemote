@@ -5,15 +5,15 @@
     <meta charset='utf-8'/>
     <meta name="viewport" content="width=devide-width, initial-scale=1"/>
     <link rel='stylesheet' href='styleFile.css'>
-    <title>Internet Remote</title>
+    <title>IR Remote</title>
 </head>
 <body>
 <table border="0"  class="rwd-table">
-<th align="center">ir Remote</th>
+<th align="center">IR Remote</th>
     <tr>
         <td>
             <form target='myiframe' action='/power' method='GET'>
-                <button class="btn btn-primary" type='submit' style="width: 100%">ON/OFF</button>
+                <button class="btn btn-danger" type='submit' style="width: 100%">ON/OFF</button>
             </form>
         </td>
     </tr>
@@ -21,7 +21,7 @@
     <tr>
         <td>
             <form target='myiframe' action='/volumeUp' method='GET'>
-                <button type='submit' style="width: 100%">Volume Up</button>
+                <button class="btn btn-primary" type='submit' style="width: 100%">Volume Up</button>
             </form>
         </td>
 
@@ -30,7 +30,7 @@
     <tr>
         <td>
             <form target='myiframe' action='/volumeDown' method='GET'>
-                <button type='submit' style="width: 100%">Volume Down</button>
+                <button class="btn btn-primary" type='submit' style="width: 100%">Volume Down</button>
             </form>
         </td>
     </tr>
@@ -38,7 +38,7 @@
     <tr>
         <td>
             <form target='myiframe' action='/pictureEffect' method='GET'>
-                <button type='submit' style="width: 100%">Picture Effect</button>
+                <button class="btn btn-primary" type='submit' style="width: 100%">Picture Effect</button>
             </form>
 
         </td>
@@ -47,7 +47,7 @@
     <tr>
         <td>
             <form target='myiframe' action='/soundEffect' method='GET'>
-                <button type='submit' style="width: 100%">Sound Effect</button>
+                <button class="btn btn-primary" type='submit' style="width: 100%">Sound Effect</button>
             </form>
         </td>
     </tr>
@@ -57,8 +57,5 @@
 
 <iframe id='myiframe' name='myiframe' width=1 height=1 display='none'>
 </iframe>
-</td>
-</tr>
-<table>
 </body>
 </html>

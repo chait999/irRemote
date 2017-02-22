@@ -231,3 +231,25 @@ footer {
 .btn-primary:active {
     background-color: #43a9c3;
 }
+
+.btn-danger {
+    display: inline-block;
+    padding: 10px 18px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #e60000;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn-danger:hover {
+    background-color:#f05050
+}
+
+.btn-danger:active {
+    background-color: #ff1a1a;
+}
