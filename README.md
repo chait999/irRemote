@@ -8,7 +8,7 @@ MQTTClient- Setup <a href="https://github.com/iotwale/irRemoteClient">irRemoteCl
 <br>
 <br>
 <h3>Installation</h3><br>
-Setup Server module on a cloud Server
+Setup this module on a cloud Server
 
 _git clone <a href="https://github.com/iotwale/irRemoteServer">irRemoteServer</a><br>
 npm install<br>
