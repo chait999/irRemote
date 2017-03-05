@@ -15,7 +15,7 @@ npm install<br>
 node server.js<br>_
 
 
-Now Setup the client module from <a href = "https://github.com/iotwale/irRemoteClient">here</a><br>
+Now Setup the client module from <a href = "https://github.com/chaitanyaT99/irRemoteClient">here</a><br>
 <br>
 <br>
 <h3>Deployment</h3><br>
@@ -26,4 +26,4 @@ You can access the irRemoteControl from your server hostname/ip
 <a href="https://nodejs.org/en/">Node.js</a>
 <br><br>
 <h3>License</h3><br>
-This project is licensed under the MIT License - see the <a href="https://github.com/iotwale/irRemoteClient/blob/master/LICENSE.md">LICENSE.md</a> file for details
+This project is licensed under the MIT License - see the <a href="https://github.com/chaitanyaT99/irRemoteClient/blob/master/LICENSE.md">LICENSE.md</a> file for details
