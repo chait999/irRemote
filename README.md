@@ -23,7 +23,7 @@ Once Installation is done, create a systemctl daemon for starting the nodejs ser
 You can access the irRemoteControl from your server hostname/ip
 <br><br>
 <h3>Demo</h3><br>
-You can have a look at a live demo <a href="http://52.38.12.220/">here</a>
+You can have a look at a live demo <a href="https://www.youtube.com/watch?v=Bhme4cYel3g">here</a>
 <br><br>
 <h3>Built With</h3><br>
 <a href="https://nodejs.org/en/">Node.js</a>
