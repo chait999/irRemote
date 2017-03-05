@@ -10,7 +10,7 @@ MQTTClient- Setup <a href="https://github.com/chaitanyaT99/irRemoteClient">irRem
 <h3>Installation</h3><br>
 Setup this module on a cloud Server
 
-_git clone https://github.com/chaitanyaT99/irRemoteServer
+_git clone https://github.com/chaitanyaT99/irRemoteServer<br>
 npm install<br>
 node server.js<br>_
 
