@@ -3,7 +3,7 @@ A node.js module containing Server  part of the InfraRed Remote Control
 <br>
 <br>
 <h3>Prerequisites</h3><br>
-Node.js - Download & Install Node.js and the npm package manager. If you encounter any problems, you can also use this GitHub Gist to install Node.js.
+Node.js - Download & Install Node.js and the npm package manager. If you encounter any problems, you can also use this GitHub Gist to install Node.js.<br>
 MQTTClient- Setup <a href="https://github.com/chaitanyaT99/irRemoteClient">irRemoteClient</a> on RaspberryPi
 <br>
 <br>
