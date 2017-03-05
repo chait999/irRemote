@@ -10,9 +10,11 @@ MQTTClient- Setup <a href="https://github.com/iotwale/irRemoteClient">irRemoteCl
 <h3>Installation</h3><br>
 Setup Server module on a cloud Server
 
-git clone <a href="https://github.com/iotwale/irRemoteServer">irRemoteServer</a><br>
+_git clone <a href="https://github.com/iotwale/irRemoteServer">irRemoteServer</a><br>
 npm install<br>
-node server.js<br>
+node server.js<br>_
+
+
 Now Setup the client module from <a href = "https://github.com/iotwale/irRemoteClient">here</a><br>
 <br>
 <br>
@@ -25,6 +27,3 @@ Node.js
 <br><br>
 <h3>License</h3><br>
 This project is licensed under the MIT License - see the <a href="https://github.com/iotwale/irRemoteClient/blob/master/LICENSE.md">LICENSE.md</a> file for details
-
-
-
