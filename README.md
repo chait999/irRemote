@@ -1,4 +1,30 @@
-This Repository includes complete tutorial for accessing Infrared remote controls remotely.
+<h3>Getting Started</h3><br>
+A node.js module containing Server  part of the InfraRed Remote Control
+<br>
+<br>
+<h3>Prerequisites</h3><br>
+Node.js - Download & Install Node.js and the npm package manager. If you encounter any problems, you can also use this GitHub Gist to install Node.js.
+MQTTClient- Setup <a href="https://github.com/iotwale/irRemoteClient">irRemoteClient</a> on RaspberryPi
+<br>
+<br>
+<h3>Installation</h3><br>
+Setup Server module on a cloud Server
 
-1st part of the tutorial includes a MQTT broker which has to be hosted online.
-2nd part will be the client which will be subscribed to a specific topic from the Broker.
+git clone <a href="https://github.com/iotwale/irRemoteServer">irRemoteServer</a><br>
+npm install<br>
+node server.js<br>
+Now Setup the client module from <a href = "https://github.com/iotwale/irRemoteClient">here</a><br>
+<br>
+<br>
+<h3>Deployment</h3><br>
+Once Installation is done, create a systemctl daemon for starting the nodejs server on boot.
+You can access the irRemoteControl from your server hostname/ip
+<br><br>
+<h3>Built With</h3><br>
+Node.js
+<br><br>
+<h3>License</h3><br>
+This project is licensed under the MIT License - see the <a href="https://github.com/iotwale/irRemoteClient/blob/master/LICENSE.md">LICENSE.md</a> file for details
+
+
+
